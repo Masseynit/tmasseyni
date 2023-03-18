@@ -1,0 +1,118 @@
+.diapo{ 
+    /*margin: 0 auto;*/ 
+    flex: 1 0 auto; 
+    height: fit-content; 
+    /*border: 3px solid rgb(255, 255, 255);*/ 
+    background-image: url(https://th.bing.com/th/id/R.546ced301668d2d5834a7013f43bfd2f?rik=698JBVb0dUKHzA&pid=ImgRaw&r=0); 
+    background-size: cover;
+     
+
+    -webkit-animation-name: diapo; 
+    -webkit-animation-duration: 20s; 
+    -webkit-animation-timing-function: linear; 
+    -webkit-animation-iteration-count: infinite; 
+    -webkit-animation-direction: normal; 
+
+    -moz-animation-name: diapo; 
+    -moz-animation-duration: 20s; 
+    -moz-animation-timing-function: linear; 
+    -moz-animation-iteration-count: infinite; 
+    -moz-animation-direction: normal; 
+
+    animation-name: diapo; 
+    animation-duration: 20s; 
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite; 
+    animation-direction: normal; 
+} 
+@-webkit-keyframes diapo{ 
+    0%{background-image: url(https://images.hdqwalls.com/download/burj-al-arab-dm-5120x2880.jpg);background-size: cover} 
+    25%{background-image: url(https://th.bing.com/th/id/R.c569f1ddfb0e59a20ad71af647e17ef9?rik=KM%2fYZ6PfuZIgTQ&pid=ImgRaw&r=0);background-size: cover} 
+    50%{background-image: url(https://images.hdqwalls.com/download/sunset-over-manhattan-bridge-8u-3840x2400.jpg);background-size: cover}
+    75%{background-image: url(https://images.hdqwalls.com/download/hot-air-balloons-sky-fr-3840x2400.jpg);background-size: cover}
+} 
+@-moz-keyframes diapo{ 
+    0%{background-image: url(https://images.hdqwalls.com/download/burj-al-arab-dm-5120x2880.jpg);background-size: cover} 
+    25%{background-image: url(https://th.bing.com/th/id/R.c569f1ddfb0e59a20ad71af647e17ef9?rik=KM%2fYZ6PfuZIgTQ&pid=ImgRaw&r=0);background-size: cover} 
+    50%{background-image: url(https://images.hdqwalls.com/download/sunset-over-manhattan-bridge-8u-3840x2400.jpg);background-size: cover}
+    75%{background-image: url(https://images.hdqwalls.com/download/hot-air-balloons-sky-fr-3840x2400.jpg);background-size: cover}
+} 
+@keyframes diapo{ 
+    0%{background-image: url(https://images.hdqwalls.com/download/burj-al-arab-dm-5120x2880.jpg);background-size: cover} 
+    25%{background-image: url(https://th.bing.com/th/id/R.c569f1ddfb0e59a20ad71af647e17ef9?rik=KM%2fYZ6PfuZIgTQ&pid=ImgRaw&r=0);background-size: cover} 
+    50%{background-image: url(https://images.hdqwalls.com/download/sunset-over-manhattan-bridge-8u-3840x2400.jpg);background-size: cover}
+    75%{background-image: url(https://images.hdqwalls.com/download/hot-air-balloons-sky-fr-3840x2400.jpg);background-size: cover}
+}
+
+    
+
+#principal{
+    color: azure;
+    background-size: 100%;
+    width: 1350px;
+    height: 100px;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 100% 100%;
+    padding-top: 15%;
+}
+
+#principal>#entete>h1{
+    font-size: 20px;
+}
+
+#principal>#entete>header{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#entete{
+    
+    width: 1000px;
+    margin-left: 10%;
+    padding-left: 10%;
+    font-size: 70px;
+    color: rgb(23, 17, 28);
+    animation: typing-animation 2s steps(25);
+    white-space: nowrap;
+    overflow: hidden;
+}
+@keyframes typing-animation
+{
+    from
+    {
+        width: 0;
+    }
+}
+
+
+#menu{
+    font-size: large ;
+    height: 70px;
+    width: 1500px;
+    background-color: white;
+}
+
+#menu ul>li{
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 7%;
+    line-height: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: brown;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(45, 7, 7);
+}
+
+
+
+li :hover{
+    color: rgb(255, 77, 0);
+    background-size: 100px;
+}
+
